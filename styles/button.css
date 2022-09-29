@@ -1,0 +1,48 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  min-width: 140px;
+  margin: 16px;
+  padding: 12px 48px;
+  outline: none;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  opacity: 1;
+  color: #fff;
+  background-color: transparent;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn--success {
+  background-color: #71be34;
+}
+
+.btn--info {
+  background-color: #2f86eb;
+}
+
+.btn--warning {
+  background-color: #ffb702;
+}
+
+.btn--danger {
+  background-color: #ff623d;
+}
+
+.btn--disable {
+  opacity: 0.5 !important;
+  cursor: default;
+}
+
+.btn--size-s{
+  padding: 8px 44px;
+}
+.btn--size-l{
+  padding: 16px 52px;
+}
